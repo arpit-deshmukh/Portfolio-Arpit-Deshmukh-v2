@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body {
+  @apply bg-black;
+} */
+
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+}
