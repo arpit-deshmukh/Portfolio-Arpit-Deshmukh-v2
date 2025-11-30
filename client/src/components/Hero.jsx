@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="pt-32 pb-20 text-white max-w-4xl mx-auto px-6">
 
-      {/* NAME */}
+      {/* name */}
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -14,7 +14,7 @@ export default function Hero() {
         Hi, I'm <span className="text-blue-400">Arpit</span>
       </motion.h1>
 
-      {/* SUBTITLE */}
+      {/* subtitle */}
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -24,7 +24,7 @@ export default function Hero() {
         Developer • Researcher • Systems Thinker.
       </motion.p>
 
-      {/* DESCRIPTION */}
+      {/* description */}
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -34,7 +34,7 @@ export default function Hero() {
        Building real-world projects, exploring system design fundamentals, and learning deeply across computer science and software development.
       </motion.p>
 
-      {/* BUTTONS */}
+      {/* buttons */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

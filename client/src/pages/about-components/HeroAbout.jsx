@@ -8,8 +8,7 @@ export default function HeroAbout() {
       <div className="grid md:grid-cols-2 gap-16 items-center">
 
 
-
-        {/* LEFT SIDE — IMAGE CARD */}
+{/* left image card  */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -27,7 +26,7 @@ export default function HeroAbout() {
           </div>
         </motion.div>
 
-        {/* RIGHT SIDE — TEXT CONTENT */}
+        {/* right side */}
         <div>
   
            <motion.h1
@@ -51,7 +50,7 @@ export default function HeroAbout() {
             Developer • Researcher • Systems Thinker.
           </motion.p>
 
-          {/* DESCRIPTION */}
+     {/* description */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -62,7 +61,7 @@ export default function HeroAbout() {
             across computer science and software development.
           </motion.p>
 
-          {/* BUTTONS */}
+     {/* buttons  */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

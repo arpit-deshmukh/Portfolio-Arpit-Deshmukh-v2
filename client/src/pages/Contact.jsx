@@ -6,6 +6,7 @@ import ArticleIcon from "@mui/icons-material/Article";
 export default function Contact() {
   return (
     <section className="pt-28 pb-20 px-6 max-w-4xl mx-auto text-white">
+      
 
       {/* title  */}
       <h1 className="text-4xl font-bold mb-10">Contact</h1>
@@ -31,7 +32,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* LINKEDIN */}
+          {/* linkedin  */}
           <div className="flex items-start gap-3">
             <LinkedInIcon className="text-blue-400 mt-1" />
             <div>
@@ -47,7 +48,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* GITHUB */}
+          {/* github  */}
           <div className="flex items-start gap-3">
             <GitHubIcon className="text-blue-400 mt-1" />
             <div>
@@ -63,7 +64,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* RESUME */}
+          {/* resume */}
           <div className="flex items-start gap-3">
             <ArticleIcon className="text-blue-400 mt-1" />
             <div>

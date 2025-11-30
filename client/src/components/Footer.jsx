@@ -44,7 +44,7 @@ export default function Footer() {
         </p>
       </Link> */}
 
-      {/* COPYRIGHT TEXT */}
+      {/* copyright text */}
       <p className="text-center text-sm text-gray-500">
         © {new Date().getFullYear()} Arpit. All rights reserved.
       </p>

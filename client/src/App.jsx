@@ -13,6 +13,8 @@ import Footer from "./components/Footer.jsx";
 import ResumePage from "./components/ui/ResumePage.jsx";
 import Quotes from "./pages/Quotes.jsx";
 
+import Acheivements from "./pages/v2/Acheivements.jsx";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -30,6 +32,8 @@ export default function App() {
 
           <Route path="/resume" element={<ResumePage />} />
           <Route path="/quotes" element={<Quotes />} />
+
+          {/* <Route path="/acheivements" element={<Acheivements />} /> */}
 
 
         </Routes>

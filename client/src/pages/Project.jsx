@@ -50,10 +50,10 @@ export default function Projects() {
   return (
     <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
 
-      {/* PAGE TITLE */}
+      {/* page title  */}
       <h1 className="text-4xl font-bold mb-10">Projects</h1>
 
-      {/* GRID */}
+      {/* grid */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         {projects.map((project, idx) => (
@@ -61,7 +61,7 @@ export default function Projects() {
             key={idx}
             className="bg-white/5 border border-white/10 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition"
           >
-            {/* IMAGE */}
+            {/* image */}
             <img
             
               src={project.image}
@@ -69,13 +69,13 @@ export default function Projects() {
               className="w-full h-40 object-cover"
             />
 
-            {/* CONTENT */}
+            {/* content */}
             <div className="p-5">
               <h2 className="text-xl font-semibold">{project.title}</h2>
 
               <p className="text-gray-300 mt-2">{project.description}</p>
 
-              {/* TECH TAGS */}
+              {/* tech tags */}
               <div className="flex flex-wrap gap-2 mt-4">
                 {project.tech.map((tag, i) => (
                   <span
@@ -87,7 +87,7 @@ export default function Projects() {
                 ))}
               </div>
 
-              {/* LINKS */}
+              {/* links */}
               <div className="flex gap-4 mt-6">
                 <a
                   href={project.github}

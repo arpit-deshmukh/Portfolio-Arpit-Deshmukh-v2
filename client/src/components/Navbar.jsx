@@ -18,12 +18,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-black/40 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
 
-        {/* LOGO */}
+        {/* logo */}
         <Link to="/" className="text-xl font-semibold text-white tracking-wide">
           Arpit<span className="text-blue-400">.</span>
         </Link>
 
-        {/* DESKTOP MENU */}
+        {/* desktop menu */}
         <div className="hidden md:flex items-center gap-6">
           {links.map((link) => (
             <Link
@@ -38,7 +38,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* MOBILE MENU */}
+        {/* mobile menu */}
         <button
           className="md:hidden text-white"
           onClick={() => setOpen(!open)}
@@ -47,7 +47,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* MOBILE MENU LIST */}
+      {/* mobile menu list */}
       {open && (
         <div className="md:hidden flex flex-col items-start px-6 pb-4 gap-3 bg-black/60 backdrop-blur-lg">
           {links.map((link) => (
