@@ -1,30 +1,31 @@
 export default function Activities() {
-  const activities = [
-    {
-      title: "ITESA (IT Engineering Students Association)",
-      description:
-        "Participated in departmental events, workshops, peer learning circles, and multiple student-driven initiatives. This is placeholder text; you can customize fully later.",
-      image: "https://via.placeholder.com/600x400?text=Activity+Image+1",
-    },
-    {
-      title: "Debate & Communication Club",
-      description:
-        "Engaged in debate sessions, communication workshops, and public-speaking activities that helped build confidence and clarity.",
-      image: "https://via.placeholder.com/600x400?text=Activity+Image+2",
-    },
-    {
-      title: "College Technical Events",
-      description:
-        "Volunteered and participated in technical fests, hackathons, coding competitions, and flagship events. Replace this text with real details.",
-      image: "https://via.placeholder.com/600x400?text=Activity+Image+3",
-    },
-    {
-      title: "Workshops & Seminars",
-      description:
-        "Attended various workshops on technology, leadership, communication, and self-development. This text can be completely modified later.",
-      image: "https://via.placeholder.com/600x400?text=Activity+Image+4",
-    },
-  ];
+const activities = [
+  {
+    title: "ITESA — IT Engineering Students Association",
+    description:
+      "Actively contributed to departmental events, peer-learning circles, and student-led initiatives. Participated in workshops on technology, problem-solving, and teamwork.",
+    image: "/activities/itesa.jpg",
+  },
+  {
+    title: "Debate & Communication Club",
+    description:
+      "Took part in debates, group discussions, and public-speaking sessions. Improved clarity, articulation, and confidence through continuous practice.",
+    image: "/activities/debate.jpg",
+  },
+  {
+    title: "Technical Events & Hackathons",
+    description:
+      "Participated and volunteered in coding competitions, college tech fests, and hackathons. Explored real-world problem-solving and team-based project execution.",
+    image: "/activities/tech-events.jpg",
+  },
+  {
+    title: "Workshops & Skill-Building Sessions",
+    description:
+      "Attended workshops on technology, leadership, personal development, and communication. Gained hands-on exposure to both technical and soft-skill areas.",
+    image: "/activities/workshops.jpg",
+  },
+];
+
 
   return (
     <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">

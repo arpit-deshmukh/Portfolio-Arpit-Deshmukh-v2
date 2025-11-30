@@ -1,8 +1,14 @@
-import Hero2 from "../components/Hero2";
+// import HeroAbout from "../components/Hero2";
+import HeroAbout from "../pages/about-components/HeroAbout.jsx";
 
 export default function About() {
   return (
-    <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
+
+    <>
+    
+      <HeroAbout/>
+       <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
+
        {/* <Hero2/> */}
        <hr/>
 
@@ -77,5 +83,8 @@ ranging from software
       </div>
 
     </section>
+    
+    </>
+   
   );
 }
