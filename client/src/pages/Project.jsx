@@ -22,6 +22,16 @@ export default function Projects() {
       image:
         "/project-assets/eco.png",
     },
+     {
+      title: "Personal Portfolio V2",
+      description:
+        "A modern, minimal, card-based portfolio showcasing projects, activities, education, and research. Built with React and Tailwind for speed and polish.",
+      tech: ["React", "Vite", "TailwindCSS"],
+      github: "https://github.com/arpit-deshmukh/Portfolio-Arpit-Deshmukh-v2",
+      live: "https://arpit-deshmukh-v1.netlify.app/",
+      image:
+      "/project-assets/pf.png",
+    },
 
     {
       title: "Algorithm Visualizer",
@@ -34,16 +44,7 @@ export default function Projects() {
          "/project-assets/algo.png",
     },
 
-    {
-      title: "Personal Portfolio V2",
-      description:
-        "A modern, minimal, card-based portfolio showcasing projects, activities, education, and research. Built with React and Tailwind for speed and polish.",
-      tech: ["React", "Vite", "TailwindCSS"],
-      github: "https://github.com/arpit-deshmukh/Portfolio-Arpit-Deshmukh-v2",
-      live: "#",
-      image:
-      "/project-assets/pf.png",
-    },
+   
   ];
 
 
