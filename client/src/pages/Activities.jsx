@@ -21,7 +21,7 @@ const activities = [
   // {
   //   title: "Workshops & Skill-Building Sessions",
   //   description:
-  //     "Attended workshops on technology, leadership, personal development, and communication. Gained hands-on exposure to both technical and soft-skill areas.",
+  //     "Attended wo.",
   //   image: "/activities/workshops.jpg",
   // },
 ];

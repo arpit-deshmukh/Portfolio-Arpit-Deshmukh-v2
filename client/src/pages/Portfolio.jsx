@@ -1,21 +1,26 @@
 
+import ComputerIcon from '@mui/icons-material/Computer';
+import TrackChangesIcon from '@mui/icons-material/TrackChanges';
+// import ArticleIcon from '@mui/icons-material/Article';
+import ArticleIcon from '@mui/icons-material/Article';
+
 export default function Portfolio() {
   const portfolioItems = [
     {
       title: "Technical Projects",
       description: "A collection of full-stack, MERN, and real-world applications.",
       link: "/projects",
-      icon: "💻",
+      icon: <ComputerIcon />,
     },
     {
       title: "Activities & Clubs",
-      description: "Experiences like ITESA, Debate Club, workshops, and team leadership.",
+      description: "Active Participation and Experiences  in clubs ,session and student led programs",
       link: "/activities",
-      icon: "🎯",
+      icon: <TrackChangesIcon />
     },
     {
       title: "Research & Articles",
-      description: "Tech research, reports, and thoughtful analysis.",
+      description: "Research, reports, and thoughtful analysis on topics across computer science and software development.",
       link: "#",
       icon: "📄",
     },
