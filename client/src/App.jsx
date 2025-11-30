@@ -7,11 +7,12 @@ import Education from "./pages/Education.jsx";
 
 import Portfolio from "./pages/Portfolio.jsx";
 import Activities from "./pages/Activities.jsx";
-import Projects from "./pages/Project.jsx";
+import Projects from "./pages/Projects.jsx";
 import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ResumePage from "./components/ui/ResumePage.jsx";
 import Quotes from "./pages/Quotes.jsx";
+
 
 import Acheivements from "./pages/v2/Acheivements.jsx";
 
@@ -38,6 +39,7 @@ export default function App() {
 
         </Routes>
       </div>
+
        <Footer />
     </BrowserRouter>
   );

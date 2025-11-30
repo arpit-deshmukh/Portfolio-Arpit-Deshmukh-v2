@@ -1,24 +1,26 @@
 
 import About from "./About";
 import Education from "./Education";
-import Portfolio from "./Portfolio";
+import PortfolioHome from "./home-components/PortfolioHome";
 import Activities from "./Activities";
-import Projects from "./Project";
+import Projects from "./Projects";
 import Contact from "./Contact";
 import Hero from "../components/Hero";
 
 import Hero2 from "../components/Hero2";
 import Hero3 from "../components/Hero3";
+import HeroHome from "../pages/home-components/HeroHome";
 
 export default function Home() {
     return (
         <>
       
         {/* <Hero2/> */}
-        <Hero3/>
+        {/* <Hero3/> */}
+        <HeroHome/>
          {/* <About/> */}
                 {/* <Education/> */}
-                <Portfolio/>
+                <PortfolioHome/>
                 {/* <Activities/> */}
                 <Projects/>
                 <Contact/></>

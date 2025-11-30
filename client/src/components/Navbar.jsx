@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: "Education", to: "/education" },
     { name: "Portfolio", to: "/portfolio" },
     { name: "Activities", to: "/activities" },
-    { name: "Projects", to: "/projects" },
+    // { name: "Projects", to: "/projects" },
     { name: "Contact", to: "/contact" },
   ];
 
@@ -20,7 +20,11 @@ export default function Navbar() {
 
         {/* logo */}
         <Link to="/" className="text-xl font-semibold text-white tracking-wide">
-          Arpit<span className="text-blue-400">.</span>
+         <span className="text-blue-400"> Arpit Deshmukh
+          {/* <div className="w-8 h-8 border-2 border-black-400 b">
+             <img src="./core/logo/logo_2.png" alt="" />
+          </div> */}
+         </span>
         </Link>
 
         {/* desktop menu */}
@@ -38,7 +42,7 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* mobile menu */}
+        {/* mobile menu setup */}
         <button
           className="md:hidden text-white"
           onClick={() => setOpen(!open)}

@@ -13,7 +13,7 @@ export default function Footer() {
 
         {/* EMAIL */}
         <a
-          href="mailto:arpitdeshmukh21@gmail.com"
+          href=""
           className="hover:text-blue-400 transition"
           target="_blank"
         >

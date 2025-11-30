@@ -3,9 +3,9 @@ import ComputerIcon from '@mui/icons-material/Computer';
 import TrackChangesIcon from '@mui/icons-material/TrackChanges';
 // import ArticleIcon from '@mui/icons-material/Article';
 import ArticleIcon from '@mui/icons-material/Article';
-import Projects from "./Projects";
+import Projects from "../Projects";
 
-export default function Portfolio() {
+export default function PortfolioAbout() {
   const portfolioItems = [
     {
       title: "Technical Projects",
@@ -63,7 +63,7 @@ export default function Portfolio() {
         ))}
 
       </div>
-      <Projects/>
+
 
     </section>
   );

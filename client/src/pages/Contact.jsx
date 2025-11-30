@@ -16,7 +16,7 @@ export default function Contact() {
 
 {/* intro */}
         <p className="text-gray-300 leading-relaxed mb-10">
-          Feel free to reach out for collaborations, project discussions,
+          Feel free to reach out for  project discussions,
           opportunities, or simply to connect. I’m always open to meaningful
           conversations and new ideas.
         </p>
