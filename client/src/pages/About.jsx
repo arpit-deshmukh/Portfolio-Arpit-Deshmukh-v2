@@ -19,7 +19,7 @@ export default function About() {
       {/* <GeneralAbout/> */}
 
       <PortfolioAbout/>
-      <Contact/>
+      {/* <Contact/> */}
   
 
 

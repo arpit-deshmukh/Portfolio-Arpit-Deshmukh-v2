@@ -15,13 +15,11 @@ export default function Home() {
     return (
         <>
       
-        {/* <Hero2/> */}
-        {/* <Hero3/> */}
-        <HeroHome/>
-         {/* <About/> */}
-                {/* <Education/> */}
+        
+                  <HeroHome/>
+        
                 <PortfolioHome/>
-                {/* <Activities/> */}
+                
                 <Projects/>
                 <Contact/></>
     )

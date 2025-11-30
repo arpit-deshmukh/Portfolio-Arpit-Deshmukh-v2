@@ -1,3 +1,5 @@
+import Contact from "./Contact";
+
 export default function Education() {
   const educationData = [
     {
@@ -57,6 +59,7 @@ export default function Education() {
         ))}
 
       </div>
+      {/* <Contact/> */}
 
     </section>
   );
