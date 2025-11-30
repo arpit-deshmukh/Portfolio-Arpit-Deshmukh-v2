@@ -67,7 +67,8 @@ export default function Hero2() {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-gray-300 mt-4 text-lg md:text-xl"
           >
-            Developer • Researcher • Systems Thinker.
+            
+             Developer • Designer • Learner.
           </motion.p>
 
           {/* description */}

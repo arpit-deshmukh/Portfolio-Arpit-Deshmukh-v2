@@ -34,7 +34,7 @@ ranging from software
           </p>
 
           <p className="text-gray-400 mt-4">
-            I believe technology holds the key for solving some of the world’s most complex challenges and rising problems. By leveraging our skills in coding, problem-solving, and innovation, we should aim to create solutions that not only drive innovation and growth but also make a positive impact on society.
+            I believe technology holds the key for solving some of the world’s most complex challenges and rising problems.<br/> By leveraging our skills in coding, problem-solving, and innovation, we should aim to create solutions that not only drive innovation and growth but also make a positive impact on society.
             on.
           </p>
         </div>

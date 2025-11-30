@@ -19,7 +19,7 @@ export default function Education() {
     {
       degree: "Secondary School Certificate (SSC)",
       institute: "Manibai Gujarati High School , Amravati",
-      year: "2010 – 2021",
+      year: "2020 – 2021",
       description:
         "Completed my secondary education with strong academic performance and active participation in school-level activities",
         score : "Score: 96.60"
