@@ -6,6 +6,7 @@ export default function Education() {
       year: "2023 – 2027",
       description:
         "Pursuing Bachelor of Engineering in Information Technology, focusing on software development, system fundamentals, and building real-world projects using modern technologies.",
+      score : "CGPA : 8.7"
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
@@ -13,6 +14,7 @@ export default function Education() {
       year: "2021 – 2023",
       description:
         "Studied core science subjects including Physics, Chemistry, and Mathematics, building strong analytical and problem-solving skills.",
+        score : "Score: 81.83"
     },
     {
       degree: "Secondary School Certificate (SSC)",
@@ -20,6 +22,7 @@ export default function Education() {
       year: "2010 – 2021",
       description:
         "Completed my secondary education with strong academic performance and active participation in school-level activities",
+        score : "Score: 96.60"
     },
   ];
 
@@ -45,6 +48,11 @@ export default function Education() {
             <p className="text-gray-400 mt-3 leading-relaxed">
               {item.description}
             </p>
+            <p className="text-gray-400 mt-3 leading-relaxed">
+              {item.score}
+            </p>
+
+
           </div>
         ))}
 
