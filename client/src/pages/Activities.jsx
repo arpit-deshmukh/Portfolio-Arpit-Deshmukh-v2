@@ -3,14 +3,14 @@ const activities = [
   {
     title: "ITESA — IT Engineering Students Association",
     description:
-      "Actively contributed to departmental events, peer-learning circles, and student-led initiatives. Participated in workshops on technology, problem-solving, and teamwork.",
-    image: "/activities/itesa.jpg",
+      "Actively contributed to departmental events, peer-learning circles, and student-led initiatives. Participated and cunducted   workshops on technology, problem-solving, and teamwork.",
+    image: "/activities/arpit_1.png",
   },
   {
-    title: "Debate & Communication Club",
+    title: "Tarkashastra : Debate & Communication Club",
     description:
-      "Took part in debates, group discussions, and public-speaking sessions. Improved clarity, articulation, and confidence through continuous practice.",
-    image: "/activities/debate.jpg",
+      "Took part in debates, group discussions, MUN  and public-speaking sessions. Developed articulation, negotiation ,diplomatic skills and confidence through continuous practice and partiicpation.",
+    image: "/activities/t2.png",
   },
   // {
   //   title: "Technical Events & Hackathons",
