@@ -19,7 +19,7 @@ export default function HeroAbout() {
           <div className="relative rounded-2xl p-1 bg-gradient-to-r from-blue-500/40 via-purple-500/40 to-blue-600/40 backdrop-blur-md border border-white/10 shadow-lg">
             <div className="bg-white/5 rounded-2xl overflow-hidden border border-white/10">
               <img
-                src="/logo/logo_3.png"
+                src="/core/logo/logo_3.png"
                 alt="Arpit"
                 className="w-full h-[380px] object-cover opacity-90"
               />
@@ -29,7 +29,7 @@ export default function HeroAbout() {
 
         {/* RIGHT SIDE — TEXT CONTENT */}
         <div>
-          {/* SUBTITLE */}
+  
            <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

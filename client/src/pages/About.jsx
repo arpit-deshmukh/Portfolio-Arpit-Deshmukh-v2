@@ -1,5 +1,6 @@
 // import HeroAbout from "../components/Hero2";
 import HeroAbout from "../pages/about-components/HeroAbout.jsx";
+import SkillsAbout from "../pages/about-components/SkillsAbout.jsx";
 
 export default function About() {
   return (
@@ -7,6 +8,7 @@ export default function About() {
     <>
     
       <HeroAbout/>
+      <SkillsAbout/>
        <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
 
        {/* <Hero2/> */}
@@ -83,6 +85,7 @@ ranging from software
       </div>
 
     </section>
+
     
     </>
    
