@@ -23,6 +23,30 @@ export default function Projects() {
         "/project-assets/eco.png",
     },
      {
+      title: "Visuals-webRtc based Video Chat App",
+      description:
+        "A video chat app built using webRtc and socket.io for real-time video and audio communication.",
+      tech: ["React","WebRTC", "CSS"],
+    
+       github: "https://github.com/arpit-deshmukh/Visuals_v1",
+      live: "#",
+      image:
+         "/project-assets/visuals.png",
+    },
+
+  
+
+    {
+      title: "Algorithm Visualizer",
+      description:
+        "A visual learning tool that demonstrates how sorting algorithms work step-by-step with animations. Built for students to understand DSA clearly.",
+      tech: ["React", "CSS","ChartJs"],
+      github: "https://github.com/arpit-deshmukh/Algorithm-visualiser",
+      live: "https://algo-visualizer-v1.netlify.app/",
+      image:
+         "/project-assets/algo.png",
+    },
+       {
       title: "Personal Portfolio V2",
       description:
         "A modern, minimal, card-based portfolio showcasing projects, activities, education, and research. Built with React and Tailwind for speed and polish.",
@@ -34,16 +58,17 @@ export default function Projects() {
     },
 
     {
-      title: "Algorithm Visualizer",
+      title: "Niwaas : Rental Property Management Platform",
       description:
-        "A visual learning tool that demonstrates how sorting algorithms work step-by-step with animations. Built for students to understand DSA clearly.",
-      tech: ["React", "Firebase", "CSS"],
-      github: "https://github.com/arpit-deshmukh/Algorithm-visualiser",
-      live: "https://algo-visualizer-v1.netlify.app/",
+        "A rental property management platform built using React, Node.js, and MongoDB. ",
+      tech: ["MERN", "JWT Authentication","TailwindCSS"],
+        github: "https://github.com/arpit-deshmukh/Niwaas",
+     
+      live: "#",
       image:
-         "/project-assets/algo.png",
+         "/project-assets/Niwaas.png",
     },
-
+   
    
   ];
 
