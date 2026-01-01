@@ -1,16 +1,7 @@
 export default function Projects() {
 
   const projects = [
-    {
-      title: "Air Quality Intelligence Platform",
-      description:
-        "A real-time environmental monitoring platform that tracks AQI, pollution metrics, and city-wide air quality statistics using modern APIs and interactive dashboards.",
-      tech: ["React", "Node.js", "API Integration"],
-      github: "https://github.com/arpit-deshmukh/air-quality-intelligence-platform-v2",
-      live: "https://air-quality-intelligence-platform-v.vercel.app/",
-      image:
-       "/project-assets/AQI.png",
-    },
+
 
     {
       title: "EcoPulse – Economy Insights Platform",
@@ -22,18 +13,39 @@ export default function Projects() {
       image:
         "/project-assets/eco.png",
     },
-     {
-      title: "Visuals-webRtc based Video Chat App",
-      description:
-        "A video chat app built using webRtc and socket.io for real-time video and audio communication.",
-      tech: ["React","WebRTC", "CSS"],
     
-       github: "https://github.com/arpit-deshmukh/Visuals_v1",
-      live: "#",
+        {
+      title: "Air Quality Intelligence Platform",
+      description:
+        "A real-time environmental monitoring platform that tracks AQI, pollution metrics, and city-wide air quality statistics using modern APIs and interactive dashboards.",
+      tech: ["React", "Node.js", "API Integration"],
+      github: "https://github.com/arpit-deshmukh/air-quality-intelligence-platform-v2",
+      live: "https://air-quality-intelligence-platform-v.vercel.app/",
       image:
-         "/project-assets/visuals.png",
+       "/project-assets/AQI.png",
     },
+    //    {
+    //   title: "Niwaas : Rental Property Management Platform",
+    //   description:
+    //     "A rental property management platform built using React, Node.js, and MongoDB. ",
+    //   tech: ["MERN", "JWT Authentication","TailwindCSS"],
+    //     github: "https://github.com/arpit-deshmukh/Niwaas",
+     
+    //   live: "#",
+    //   image:
+    //      "/project-assets/Niwaas.png",
+    // },
 
+    {
+      title: "Personal Portfolio V2",
+      description:
+        "A modern, minimal, card-based portfolio showcasing projects, activities, education, and research. Built with React and Tailwind for speed and polish.",
+      tech: ["React", "Vite", "TailwindCSS"],
+      github: "https://github.com/arpit-deshmukh/Portfolio-Arpit-Deshmukh-v2",
+      live: "https://arpit-deshmukh-v1.netlify.app/",
+      image:
+      "/project-assets/pf.png",
+    },
   
 
     {
@@ -46,16 +58,7 @@ export default function Projects() {
       image:
          "/project-assets/algo.png",
     },
-       {
-      title: "Personal Portfolio V2",
-      description:
-        "A modern, minimal, card-based portfolio showcasing projects, activities, education, and research. Built with React and Tailwind for speed and polish.",
-      tech: ["React", "Vite", "TailwindCSS"],
-      github: "https://github.com/arpit-deshmukh/Portfolio-Arpit-Deshmukh-v2",
-      live: "https://arpit-deshmukh-v1.netlify.app/",
-      image:
-      "/project-assets/pf.png",
-    },
+       
 
     {
       title: "Niwaas : Rental Property Management Platform",
@@ -67,6 +70,17 @@ export default function Projects() {
       live: "#",
       image:
          "/project-assets/Niwaas.png",
+    },
+     {
+      title: "Visuals-webRtc based Video Chat App",
+      description:
+        "A video chat app built using webRtc and socket.io for real-time video and audio communication.",
+      tech: ["React","WebRTC", "CSS"],
+    
+       github: "https://github.com/arpit-deshmukh/Visuals_v1",
+      live: "#",
+      image:
+         "/project-assets/visuals.png",
     },
    
    

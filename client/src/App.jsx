@@ -12,6 +12,9 @@ import Contact from "./pages/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import ResumePage from "./components/ui/ResumePage.jsx";
 import Quotes from "./pages/Quotes.jsx";
+import ResearchPage from "./pages/ResearchPage.jsx";
+import ResearchDocuments from "./pages/research-components/ResearchDocuments.jsx";
+import ArticlePage from "./pages/research-components/ArticlePage.jsx";
 
 
 import Acheivements from "./pages/v2/Acheivements.jsx";
@@ -32,7 +35,10 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
 
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/quotes" element={<Quotes />} />
+          {/* <Route path="/quotes" element={<Quotes />} /> */}
+          {/* <Route path="/research" element={<ResearchPage />} />
+          <Route path="/research-documents" element={<ResearchDocuments />} /> */}
+          {/* <Route path="/article-page" element={<ArticlePage />} /> */}
 
           {/* <Route path="/acheivements" element={<Acheivements />} /> */}
 
