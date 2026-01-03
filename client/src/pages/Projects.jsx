@@ -69,7 +69,7 @@ export default function Projects() {
      
       live: "#",
       image:
-         "/project-assets/Niwaas.png",
+         "/project-assets/Niwaas-s1.png",
     },
      {
       title: "Visuals-webRtc based Video Chat App",
