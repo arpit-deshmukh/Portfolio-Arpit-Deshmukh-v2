@@ -65,9 +65,9 @@ export default function Projects() {
       description:
         "A rental property management platform built using React, Node.js, and MongoDB. ",
       tech: ["MERN", "JWT Authentication","TailwindCSS"],
-        github: "https://github.com/arpit-deshmukh/Niwaas",
+        github: "https://github.com/arpit-deshmukh/NIwaas-v3-Rental-Propery-management-Platform",
      
-      live: "#",
+      live: "https://niwaas-v3.vercel.app/",
       image:
          "/project-assets/Niwaas-s1.png",
     },
