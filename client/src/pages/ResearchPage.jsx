@@ -31,12 +31,10 @@ export default function ResearchPage() {
   return (
     <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
       
-      {/* Page Title */}
       <h1 className="text-4xl font-bold mb-6">
         Research & Explorations
       </h1>
 
-      {/* Intro Text */}
       <p className="text-gray-300 max-w-3xl mb-12 leading-relaxed">
         This section highlights exploratory and conceptual research carried out
         as part of awareness-driven projects. These efforts are not formal
@@ -44,21 +42,18 @@ export default function ResearchPage() {
         understanding real-world patterns and communicating insights clearly.
       </p>
 
-      {/* Research Cards */}
       <div className="space-y-12">
         {research.map((item, idx) => (
           <div
             key={idx}
             className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white/5 border border-white/10 p-6 rounded-xl backdrop-blur-md"
           >
-            {/* Image */}
             <img
               src={item.image}
               alt={item.title}
               className="w-full h-56 object-cover rounded-lg"
             />
 
-            {/* Content */}
             <div>
               <h2 className="text-2xl font-semibold">
                 {item.title}
@@ -72,7 +67,6 @@ export default function ResearchPage() {
         ))}
       </div>
 
-      {/* Disclaimer */}
       <p className="text-sm text-gray-400 mt-16 max-w-3xl">
         Disclaimer: These research explorations are intended for educational and
         awareness purposes only. They do not represent certified measurements,

@@ -26,14 +26,12 @@ export default function ArticlePage() {
 
     return (
         <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
-            {/* Page Header */}
             <h1 className="text-4xl font-bold mb-6">Articles & Publications</h1>
             <p className="text-gray-300 max-w-3xl mb-12 leading-relaxed">
                 Exploring the intersection of data science and environmental impact through 
                 written word. Here you'll find my featured long-form content and quick insights.
             </p>
 
-            {/* Featured Article Section */}
             <div className="mb-16">
                 <h2 className="text-sm uppercase tracking-widest text-blue-400 font-semibold mb-4">Featured Publication</h2>
                 <div className="bg-gradient-to-br from-white/10 to-white/5 border border-white/20 p-8 rounded-2xl backdrop-blur-lg shadow-xl">
@@ -53,7 +51,6 @@ export default function ArticlePage() {
                 </div>
             </div>
 
-            {/* Other Articles List */}
             <div>
                 <h2 className="text-2xl font-bold mb-6">More Insights</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

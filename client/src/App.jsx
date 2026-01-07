@@ -35,12 +35,6 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
 
           <Route path="/resume" element={<ResumePage />} />
-          {/* <Route path="/quotes" element={<Quotes />} /> */}
-          {/* <Route path="/research" element={<ResearchPage />} />
-          <Route path="/research-documents" element={<ResearchDocuments />} /> */}
-          {/* <Route path="/article-page" element={<ArticlePage />} /> */}
-
-          {/* <Route path="/acheivements" element={<Acheivements />} /> */}
 
 
         </Routes>

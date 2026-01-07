@@ -8,7 +8,6 @@ export default function HeroHome() {
       <div className="grid md:grid-cols-2 gap-16 items-center">
 
 
-{/* left image card  */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -26,7 +25,6 @@ export default function HeroHome() {
           </div>
         </motion.div>
 
-        {/* right side */}
         <div>
   
            <motion.h1
@@ -50,7 +48,6 @@ export default function HeroHome() {
             Developer • Designer • Learner.
           </motion.p>
 
-     {/* description */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -61,7 +58,6 @@ export default function HeroHome() {
             across computer science and software development.
           </motion.p>
 
-     {/* buttons  */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

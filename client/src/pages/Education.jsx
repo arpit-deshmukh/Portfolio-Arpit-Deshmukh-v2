@@ -4,62 +4,73 @@ export default function Education() {
   const educationData = [
     {
       degree: "Bachelor of Engineering (Information Technology)",
-      institute: "D. Y. Patil College of Engineering ( DYPCOE ) , Akurdi, Pune",
+      institute: "D. Y. Patil College of Engineering (DYPCOE), Akurdi, Pune",
       year: "2023 – 2027",
       description:
         "Pursuing Bachelor of Engineering in Information Technology, focusing on software development, system fundamentals, and building real-world projects using modern technologies.",
-      score : "CGPA : 8.7"
+      score: "CGPA : 8.7",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      institute: "Brijlal biyani college of science and technology , Amravati",
+      institute:
+        "Brijlal Biyani College of Science and Technology, Amravati",
       year: "2021 – 2023",
       description:
         "Studied core science subjects including Physics, Chemistry, and Mathematics, building strong analytical and problem-solving skills.",
-        score : "Score: 81.83"
+      score: "Score : 81.83%",
     },
     {
       degree: "Secondary School Certificate (SSC)",
-      institute: "Manibai Gujarati High School , Amravati",
+      institute:
+        "Manibai Gujarati High School, Amravati",
       year: "2020 – 2021",
       description:
-        "Completed my secondary education with strong academic performance and active participation in school-level activities",
-        score : "Score: 96.60"
+        "Completed secondary education with strong academic performance and active participation in school-level activities.",
+      score: "Score : 96.60%",
     },
   ];
 
   return (
     <section className="pt-28 pb-20 px-6 max-w-5xl mx-auto text-white">
-
-      {/* page title  */}
-      <h1 className="text-4xl font-bold mb-10">Education</h1>
+      <h1 className="text-4xl font-bold mb-10">
+        Education
+      </h1>
 
       <div className="space-y-10">
-
         {educationData.map((item, idx) => (
           <div
             key={idx}
-            className="bg-white/5 border border-white/10 p-6 rounded-xl backdrop-blur-md shadow-sm"
+            className="
+              card
+              card-glow
+              card-hover-soft
+              card-enter
+              p-6
+            "
+            style={{ animationDelay: `${idx * 80}ms` }}
           >
-            <h2 className="text-2xl font-semibold">{item.degree}</h2>
+            <h2 className="text-2xl font-semibold">
+              {item.degree}
+            </h2>
 
-            <p className="text-gray-300 mt-1">{item.institute}</p>
+            <p className="text-gray-300 mt-1">
+              {item.institute}
+            </p>
 
-            <p className="text-blue-400 font-medium mt-1">{item.year}</p>
+            <p className="text-blue-400 font-medium mt-1">
+              {item.year}
+            </p>
 
-            <p className="text-gray-400 mt-3 leading-relaxed">
+            <p className="text-gray-400 mt-3 leading-relaxed text-sm">
               {item.description}
             </p>
-            <p className="text-gray-400 mt-3 leading-relaxed">
+
+            <p className="text-gray-300 mt-3 font-medium">
               {item.score}
             </p>
-
-
           </div>
         ))}
-
       </div>
-      {/* <Contact/> */}
 
     </section>
   );

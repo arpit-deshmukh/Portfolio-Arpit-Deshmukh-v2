@@ -8,7 +8,6 @@ export default function Hero2() {
 
 
 
-        {/* left side */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -26,9 +25,7 @@ export default function Hero2() {
           </div>
         </motion.div>
 
-        {/* right side */}
         <div>
-          {/* subtitle */}
            <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -50,7 +47,6 @@ export default function Hero2() {
             Developer • Researcher • Systems Thinker.
           </motion.p>
 
-          {/* description */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -61,7 +57,6 @@ export default function Hero2() {
             across computer science and software development.
           </motion.p>
 
-          {/* buttons */} 
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

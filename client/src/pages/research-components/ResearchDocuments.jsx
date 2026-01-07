@@ -29,12 +29,10 @@ export default function ResearchDocuments() {
     return (
         <section className="pt-28 pb-20 px-6 max-w-6xl mx-auto text-white">
 
-            {/* Page Title */}
             <h1 className="text-4xl font-bold mb-6">
                 Research Documents & Explorations
             </h1>
 
-            {/* Intro Text */}
             <p className="text-gray-300 max-w-3xl mb-12 leading-relaxed">
                 This section contains exploratory research notes and documents created
                 as part of learning and awareness-driven projects. These are not formal
@@ -42,7 +40,6 @@ export default function ResearchDocuments() {
                 real-world patterns and communicating insights clearly.
             </p>
 
-            {/* Documents Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {documents.map((doc, idx) => (
                     <div
@@ -69,7 +66,6 @@ export default function ResearchDocuments() {
                 ))}
             </div>
 
-            {/* Disclaimer */}
             <p className="text-sm text-gray-400 mt-16 max-w-3xl">
                 Disclaimer: These documents are shared for educational and awareness
                 purposes only. They do not represent certified measurements, official

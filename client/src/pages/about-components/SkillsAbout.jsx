@@ -12,25 +12,21 @@ import {
 import { FaJava } from "react-icons/fa";
 
 export default function SkillsAbout() {
- 
-    // category 1: programming languages
   const languages = [
     { label: "C++", icon: SiCplusplus },
     { label: "Java", icon: FaJava },
     { label: "Python", icon: SiPython },
     { label: "JavaScript", icon: SiJavascript },
   ];
-// category 2: frameworks
+
   const frameworks = [
     { label: "React.js", icon: SiReact },
     { label: "Node.js", icon: SiNodedotjs },
-    { label: "Express.js", icon: SiNodedotjs }, // Express has no icon
+    { label: "Express.js", icon: SiNodedotjs },
     { label: "MongoDB", icon: SiMongodb },
     { label: "TailwindCSS", icon: SiTailwindcss },
   ];
 
-
-//   category 3 : tools & cs fundamentals
   const tools = [
     { label: "Git & GitHub", icon: SiGit },
     { label: "DSA (Data Structures & Algorithms)", icon: SiCplusplus },
@@ -57,15 +53,20 @@ export default function SkillsAbout() {
           return (
             <motion.div
               key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              whileInView={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.35, delay: index * 0.04 }}
-              className="flex flex-col items-center justify-center p-6 
-                         rounded-xl bg-white/5 backdrop-blur-md 
-                         border border-white/10 shadow-md
-                         hover:scale-105 hover:bg-white/10 
-                         transition-all duration-300"
+              className="
+                card
+                card-glow
+                p-6
+                flex
+                flex-col
+                items-center
+                justify-center
+                rounded-xl
+              "
             >
               <Icon className="text-4xl mb-3 opacity-90" />
               <p className="text-sm font-medium text-center opacity-90">

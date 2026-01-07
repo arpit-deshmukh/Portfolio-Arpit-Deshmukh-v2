@@ -8,24 +8,6 @@ export default function Hero2() {
 
 
 
-        {/* left image card */}
-        {/* <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ delay: 0.3, duration: 0.8 }}
-          className="relative w-full flex justify-center md:justify-start md:-ml-10"
-        >
-          <div className="relative rounded-2xl p-1 bg-gradient-to-r from-blue-500/40 via-purple-500/40 to-blue-600/40 backdrop-blur-md border border-white/10 shadow-lg">
-            <div className="bg-white/5 rounded-2xl overflow-hidden border border-white/10">
-              <img
-                src="/AD/arpitv1.png"
-                alt="Arpit"
-                className="w-full h-[380px] object-cover opacity-90"
-              />
-            </div>
-          </div>
-        </motion.div> */}
-
         <motion.div
   initial={{ opacity: 0, scale: 0.95 }}
   animate={{ opacity: 1, scale: 1 }}
@@ -46,9 +28,7 @@ export default function Hero2() {
   </div>
 </motion.div>
 
-{/* right side card */}
         <div>
-          {/* subtitle */}
            <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -71,7 +51,6 @@ export default function Hero2() {
              Developer • Designer • Learner.
           </motion.p>
 
-          {/* description */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -82,7 +61,6 @@ export default function Hero2() {
             across computer science and software development.
           </motion.p>
 
-          {/* buttons */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
