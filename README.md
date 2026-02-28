@@ -32,6 +32,6 @@ A modern, responsive portfolio website built to showcase my projects, technical 
 
 Aspiring Software Engineer | System Design Enthusiast | Full-Stack Developer
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/arpit-deshmukh
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/in/arpit-deshmukh-08877227a/
