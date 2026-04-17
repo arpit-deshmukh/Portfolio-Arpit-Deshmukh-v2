@@ -1,5 +1,15 @@
 export default function Projects() {
   const projects = [
+     {
+      title: "Niwaas – Rental Property Platform",
+      description:
+        "A rental property management platform using the MERN stack.",
+      tech: ["MERN", "JWT", "TailwindCSS"],
+      github:
+        "https://github.com/arpit-deshmukh/NIwaas-v3-Rental-Propery-management-Platform",
+      live: "https://niwaas-v3.vercel.app/",
+      image: "/project-assets/Niwaas-s1.png",
+    },
     {
       title: "EcoPulse – Economy Insights Platform",
       description:
@@ -20,35 +30,56 @@ export default function Projects() {
       image: "/project-assets/AQI.png",
     },
     {
-      title: "Personal Portfolio V2",
-      description:
-        "A modern, minimal, card-based portfolio built with React and Tailwind.",
-      tech: ["React", "Vite", "TailwindCSS"],
-      github:
-        "https://github.com/arpit-deshmukh/Portfolio-Arpit-Deshmukh-v2",
-      live: "https://arpit-deshmukh-v1.netlify.app/",
-      image: "/project-assets/pf.png",
-    },
-    {
-      title: "Algorithm Visualizer",
-      description:
-        "A visual learning tool that demonstrates sorting algorithms step-by-step.",
-      tech: ["React", "CSS", "ChartJs"],
-      github:
-        "https://github.com/arpit-deshmukh/Algorithm-visualiser",
-      live: "https://algo-visualizer-v1.netlify.app/",
-      image: "/project-assets/algo.png",
-    },
-    {
-      title: "Niwaas – Rental Property Platform",
-      description:
-        "A rental property management platform using the MERN stack.",
-      tech: ["MERN", "JWT", "TailwindCSS"],
-      github:
-        "https://github.com/arpit-deshmukh/NIwaas-v3-Rental-Propery-management-Platform",
-      live: "https://niwaas-v3.vercel.app/",
-      image: "/project-assets/Niwaas-s1.png",
-    },
+  title: "Multi-Agent AI System",
+  description:
+    "An intelligent multi-agent system where multiple AI agents collaborate to solve complex tasks, simulate decision-making, and automate workflows.",
+  tech: ["Python", "LLMs", "LangChain", "Multi-Agent Architecture"],
+  github:
+    "https://github.com/arpit-deshmukh/AI-Multi-Agent-Development-System",
+  live: "",
+  image: "/project-assets/multi-agent-s1.png",
+},
+//  {
+//       title: "Niwaas – Rental Property Platform",
+//       description:
+//         "A rental property management platform using the MERN stack.",
+//       tech: ["MERN", "JWT", "TailwindCSS"],
+//       github:
+//         "https://github.com/arpit-deshmukh/NIwaas-v3-Rental-Propery-management-Platform",
+//       live: "https://niwaas-v3.vercel.app/",
+//       image: "/project-assets/Niwaas-s1.png",
+//     },
+{
+  title: "Movie Intelligence Platform",
+  description:
+    "A smart movie discovery platform that provides recommendations, trending films, ratings, and detailed insights using external APIs.",
+  tech: ["React", "Node.js", "API Integration", "TMDB API"],
+  github:
+    "https://github.com/arpit-deshmukh/Movie-Recommendation-Project?tab=readme-ov-file",
+  live: "#",
+  image: "/project-assets/movie.png",
+},
+    // {
+    //   title: "Personal Portfolio V2",
+    //   description:
+    //     "A modern, minimal, card-based portfolio built with React and Tailwind.",
+    //   tech: ["React", "Vite", "TailwindCSS"],
+    //   github:
+    //     "https://github.com/arpit-deshmukh/Portfolio-Arpit-Deshmukh-v2",
+    //   live: "https://arpit-deshmukh-v1.netlify.app/",
+    //   image: "/project-assets/pf.png",
+    // },
+    // {
+    //   title: "Algorithm Visualizer",
+    //   description:
+    //     "A visual learning tool that demonstrates sorting algorithms step-by-step.",
+    //   tech: ["React", "CSS", "ChartJs"],
+    //   github:
+    //     "https://github.com/arpit-deshmukh/Algorithm-visualiser",
+    //   live: "https://algo-visualizer-v1.netlify.app/",
+    //   image: "/project-assets/algo.png",
+    // },
+   
     {
       title: "Visuals – WebRTC Video Chat",
       description:
