@@ -36,7 +36,7 @@ export default function Projects() {
   tech: ["Python", "LLMs", "LangChain", "Multi-Agent Architecture"],
   github:
     "https://github.com/arpit-deshmukh/AI-Multi-Agent-Development-System",
-  live: "",
+  live: "https://multi-agent-dev-team-s1.vercel.app/app",
   image: "/project-assets/multi-agent-s1.png",
 },
 //  {
@@ -56,7 +56,7 @@ export default function Projects() {
   tech: ["React", "Node.js", "API Integration", "TMDB API"],
   github:
     "https://github.com/arpit-deshmukh/Movie-Recommendation-Project?tab=readme-ov-file",
-  live: "#",
+  live: "https://movie-recommendation-project-v1.vercel.app/",
   image: "/project-assets/movie.png",
 },
     // {
